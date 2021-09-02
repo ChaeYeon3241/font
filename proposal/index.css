@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Josefin Sans", "Nanum Gothic", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* 포트폴리오 */
+.font_wrap {
+    position: relative;
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff2ef;
+}
+
+.font_wrap header {
+    width: 100%;
+    height: 798px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.font_wrap header h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: #000;
+    line-height: 1.1;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+
+.font_wrap header .item {
+    position: absolute;
+    width: 350px;
+    right: 400px;
+    top: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.font_wrap header .item_info {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    width: 200px;
+}
+
+.font_wrap header .item_info>div {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.font_wrap header .item_info>div:last-child {
+    margin-bottom: 0;
+}
+
+.font_wrap header .item_info>div.size p {
+    margin-bottom: 10px;
+}
+
+.font_wrap header .item_info>div.size p:last-child {
+    margin-bottom: 0;
+}
+
+.font_wrap header .item_info>div.tools p {
+    margin-bottom: 10px;
+}
+
+.font_wrap header .item_info>div.tools span.tool_img {
+    display: block;
+}
+
+.font_wrap header .item_info>div.tools span.tool_img img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.font_wrap section {
+    margin-top: 100px;
+    display: block;
+    width: 100%;
+}
+
+.font_wrap section img {
+    display: block;
+    width: 100%;
+}
+
+.font_wrap section.sec_04 {
+    margin-top: 200px;
+}
+
+.font_wrap section.sec_04 h3 {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+
+.font_wrap section.sec_05 {
+    position: relative;
+}
+
+.font_wrap section.sec_05 img.v_font {
+    position: absolute;
+    top: 180px;
+    right: 50%;
+    left: 50%;
+    width: 60%;
+    z-index: 1;
+}
+
+.font_wrap section.sec_05 img.v_bag {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    right: 0px;
+}
+
+.font_wrap section.sec_05 img.v_case {
+    position: absolute;
+    width: 40%;
+    top: 950px;
+}
+
+.font_wrap footer {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    background: #fff2ef;
+    background-attachment: fixed;
+    position: relative;
+    display: table;
+}
+
+.font_wrap footer p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
